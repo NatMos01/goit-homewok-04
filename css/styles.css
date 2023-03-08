@@ -239,6 +239,7 @@ li {
 	padding-bottom: 120px;
 	background-color: var(--secondary-background-color);
 }
+
 .team-title {
 	color: var(--title-text-color);
 }
@@ -249,6 +250,15 @@ li {
 	margin-right: auto;
 	gap: 24px;
 }
+
+.team-list {
+	width: calc((100% - 30px * 3) / 4);
+	margin-right: 30px;
+	background-color: var(--primary-white-color);
+	border-radius: 0px 0px 4px 4px;
+	box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+
 .discr-team {
 	display: flex;
 	flex-direction: column;
@@ -325,6 +335,9 @@ li {
 .footer {
 	padding: 100px 0;
 	background-color: var(--primary-background-color);
+}
+.footer .conteiner {
+	display: flex;
 }
 .logo-primary-footer {
 	margin-bottom: 16px;
