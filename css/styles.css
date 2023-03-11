@@ -8,6 +8,7 @@
 	--secondary-background-color: #f5f4fa;
 	--icons-fill-color: #8e8f99;
 	--footer-active-color: #31d0aa;
+	--fiter-background-color: #e7e9fc;
 }
 body {
 	color: var(--primary-text-color);
@@ -189,9 +190,10 @@ li {
 	margin-left: auto;
 	margin-right: auto;
 	gap: 24px;
+}
+.advan-li-item {
 	width: 264px;
 }
-
 .advan-subtitle {
 	margin-bottom: 8px;
 	color: var(--title-text-color);
@@ -266,7 +268,7 @@ li {
 }
 
 .team-list {
-	width: 1170px;
+	width: 264px;
 	background-color: var(--primary-white-color);
 	border-radius: 0px 0px 4px 4px;
 	box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
@@ -398,13 +400,6 @@ li {
 }
 
 /* css for another classes portfolio.html */
-.page-header {
-	padding-top: 24px;
-	padding-bottom: 24px;
-	background-color: var(--primary-white-color);
-	box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-	border-bottom: 1px solid #e7e9fc;
-}
 
 .portfolio {
 	padding-top: 96px;
@@ -447,8 +442,18 @@ li {
 	border-radius: 4px;
 }
 
-.portfolio-list-item:hover {
-	box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+.link:hover .border-img-dscr,
+.link:focus .border-img-dscr {
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.border-img-dscr {
+	border-bottom: 1px solid var(--fiter-background-color);
+	border-left: 1px solid var(--fiter-background-color);
+	border-right: 1px solid var(--fiter-background-color);
+	padding-top: 32px;
+	padding-bottom: 32px;
+	padding-left: 16px;
 }
 .projects {
 	background-color: var(--primary-white-color);
